@@ -1,0 +1,46 @@
+/* Add your own custom styles here */
+
+h1 {
+  font-size: 45px;
+  color: #1A694D;
+}
+
+h2 {
+  font-size: 38px;
+  color: #1A694D;
+}
+
+h3 {
+  font-size: 25px;
+  color: #1A694D;
+}
+
+h4 {
+  font-size: 20px;
+  color: #1A694D;
+}
+
+body {
+  background-color: #e7e4d2b8;
+}
+
+header,
+nav,
+.navbar,
+.header,
+.site-header {
+  background-color: #adb5a4 !important;
+}
+
+.page-header {
+  margin-bottom: 0 !important;
+  padding-bottom: px !important;
+}
+
+.section {
+  padding-top: 10px !important;
+}
+
+p {
+  line-height: 2.0;
+}

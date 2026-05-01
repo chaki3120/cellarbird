@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section">
+    <div class="container">
+       {{ .Content }}
+      <div class="mx-auto mt-12 max-w-5xl grid gap-10 md:grid-cols-2 items-start">
+
+  <div class="flex justify-center">
+    <img
+      src="{{ .Params.intro_image }}"
+      alt="decorative image"
+      class="w-full max-w-sm rounded-lg">
+  </div>
+
+  <div>
+    <h2 class="mb-6 text-3xl font-bold text-[#1A694D] text-left">
+        {{ .Params.list_intro }}
+    </h2>
+
+    <ul class="space-y-4 text-left">
+      {{ range .RegularPages }}
+        <li>
+          <a
+            href="{{ .Permalink }}"
+            class="block text-xl text-text-dark hover:text-[#1A694D] transition">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+</div>
+    </div>
+  </section>
+{{ end }}
+
+
