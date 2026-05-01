@@ -16,10 +16,6 @@ name = "Logs"
 url = "/logs"
 weight = 3
 
-# [[main]]
-# weight = 4
-# url = "/notes"
-# name = "Notes"
 
 
 

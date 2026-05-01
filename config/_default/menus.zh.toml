@@ -16,11 +16,6 @@ name = "每月特供"
 url = "/logs"
 weight = 3
 
-# 暂时隐藏
-# [[main]]
-# name = "货架（有点积灰了）"
-# url = "/notes"
-# weight = 4
 
 
 
